@@ -12,3 +12,5 @@ Create two directories `maliciouspdf` and `cleanpdf` and keep your malicious and
 * `classifier.py` implements the Random Forest Classifier and trains it with the data `pdfdataset_n.csv`. We also split the data into 30% for testing purpose. Accuracy is observed to be around 99%.
 
 We have already extracted the necessary features from these files and formed a dataset as `pdfdataset.csv` and `pdfdataset_n.csv` is min-max normalized version of it.
+
+Please raise a PR if you have improvements for the project.
